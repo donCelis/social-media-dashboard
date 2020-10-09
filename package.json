@@ -1,6 +1,6 @@
 {
   "name": "social-media-dashboard",
-  "homepage": "https://doncelis.github.io/social-dashboard-webpack/",
+  "homepage": ".",
   "version": "1.0.1",
   "description": "Practice html, css, js",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js"
   },
