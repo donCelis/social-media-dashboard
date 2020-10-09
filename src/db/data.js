@@ -1,20 +1,14 @@
-import fbElement from "../images/icon-facebook.svg";
-import twElement from "../images/icon-twitter.svg";
-import instaElement from "../images/icon-instagram.svg";
-import ytElement from "../images/icon-youtube.svg";
+import fb from "../images/icon-facebook.svg";
+import tw from "../images/icon-twitter.svg";
+import insta from "../images/icon-instagram.svg";
+import yt from "../images/icon-youtube.svg";
 
-const icons = {
-  fb: fbElement,
-  tw: twElement,
-  insta: instaElement,
-  yt: ytElement,
-};
 
 const dataCounter = [
   {
     name: "facebook",
-    icon: icons.fb,
-    user: "@nathanf",
+    icon: fb,
+    user: "@d0nCelis",
     counter: 1987,
     rank: 12,
     selector: "fb",
@@ -23,7 +17,7 @@ const dataCounter = [
   },
   {
     name: "twitter",
-    icon: icons.tw,
+    icon: tw,
     user: "@nathanf",
     counter: 1044,
     rank: 99,
@@ -33,7 +27,7 @@ const dataCounter = [
   },
   {
     name: "instagram",
-    icon: icons.insta,
+    icon: insta,
     user: "@nathanf",
     counter: 11 + "k",
     rank: 1099,
@@ -43,7 +37,7 @@ const dataCounter = [
   },
   {
     name: "youtube",
-    icon: icons.yt,
+    icon: yt,
     user: "Nathan F.",
     counter: 8239,
     rank: 144,
@@ -56,56 +50,56 @@ const dataCounter = [
 const dataStats = [
   {
     name: "Page Views",
-    icon: icons.fb,
+    icon: fb,
     counter: 87,
     rank: 3,
     state: true,
   },
   {
     name: "Likes",
-    icon: icons.fb,
+    icon: fb,
     counter: 52,
     rank: 2,
     state: false,
   },
   {
     name: "Likes",
-    icon: icons.insta,
+    icon: insta,
     counter: 5462,
     rank: 2257,
     state: true,
   },
   {
     name: "Profile Views",
-    icon: icons.insta,
+    icon: insta,
     counter: 52 + "k",
     rank: 1375,
     state: true,
   },
   {
     name: "Retweets",
-    icon: icons.tw,
+    icon: tw,
     counter: 117,
     rank: 303,
     state: true,
   },
   {
     name: "Likes",
-    icon: icons.tw,
+    icon: tw,
     counter: 507,
     rank: 553,
     state: true,
   },
   {
     name: "Likes",
-    icon: icons.yt,
+    icon: yt,
     counter: 107,
     rank: 19,
     state: false,
   },
   {
     name: "Total Views",
-    icon: icons.yt,
+    icon: yt,
     counter: 1407,
     rank: 12,
     state: false,
