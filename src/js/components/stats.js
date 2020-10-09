@@ -3,7 +3,7 @@ import stat from "./stat";
 
 const stats = () => {
   return `
-  <section class="stats py-4">
+  <section class="stats py-3">
     <div class="container">
       <h4 class="mb-4">Overview - Today</h4>
       <section class="row">

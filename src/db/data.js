@@ -18,7 +18,7 @@ const dataCounter = [
   {
     name: "twitter",
     icon: tw,
-    user: "@nathanf",
+    user: "@d0nCelis",
     counter: 1044,
     rank: 99,
     selector: "tw",
@@ -28,7 +28,7 @@ const dataCounter = [
   {
     name: "instagram",
     icon: insta,
-    user: "@nathanf",
+    user: "@d0nCelis",
     counter: 11 + "k",
     rank: 1099,
     selector: "insta",
@@ -38,7 +38,7 @@ const dataCounter = [
   {
     name: "youtube",
     icon: yt,
-    user: "Nathan F.",
+    user: "Alexander C.",
     counter: 8239,
     rank: 144,
     selector: "yt",

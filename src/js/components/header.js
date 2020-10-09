@@ -41,7 +41,7 @@ const header = () => {
   return `
   <header class="header">
     <div class="container">
-      <section class="header__content pt-5 pb-4"> 
+      <section class="header__content pt-4 pb-4"> 
         <article>
           <h4 class="m-0">
             Social Media Dashboard
