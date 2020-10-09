@@ -1,12 +1,15 @@
 {
   "name": "social-media-dashboard",
-  "version": "1.0.0",
+  "homepage": "https://doncelis.github.io/social-dashboard-webpack/",
+  "version": "1.0.1",
   "description": "Practice html, css, js",
   "main": "index.js",
   "author": "Alexander Celis",
   "private": true,
   "license": "MIT",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js"
   },
@@ -45,6 +48,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:taniarascia/webpack-boilerplate"
+    "url": "git@github.com:donCelis/social-dashboard-webpack.git"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
