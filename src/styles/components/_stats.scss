@@ -1,0 +1,56 @@
+.stats {
+  h4 {
+    font-weight: bold;
+    color: var(--text-comp);
+  }
+  &__item {
+    padding: 1.2rem;
+    border-radius: $rounded;
+    background: var(--card-bg);
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        color: var(--text-comp);
+      }
+    }
+    &-body {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 1rem;
+      h3 {
+        font-weight: bold;
+        color: var(--text-main);
+      }
+      small {
+        position: relative;
+        display: inline-block;
+        font-weight: bold;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%) translateX(-0.8rem);
+          right: 0;
+          left: 0;
+          width: 8px;
+          height: 4px;
+        }
+        &.success {
+          &::before {
+            background: url("../images/icon-up.svg");
+          }
+          color: var(--lime-green);
+        }
+        &.danger {
+          &::before {
+            background: url("../images/icon-down.svg");
+          }
+          color: var(--bright-red);
+        }
+      }
+    }
+  }
+}

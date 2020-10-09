@@ -1,0 +1,32 @@
+.header {
+  color: var(--text-main);
+  background: var(--top-bg-pattern);
+  .container {
+    padding-bottom: 6rem;
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    article {
+      h4 {
+        font-weight: bold;
+      }
+      small {
+        font-weight: bold;
+        color: var(--text-comp);
+      }
+    }
+    @media only screen and (max-width: 576px) {
+      & {
+        flex-direction: column;
+        article {
+          width: 100%;
+          padding-bottom: 1.5rem;
+          border-bottom: 1px solid var(--text-main);
+        }
+      }
+    }
+  }
+}

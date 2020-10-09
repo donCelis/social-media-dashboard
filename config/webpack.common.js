@@ -1,6 +1,6 @@
 const paths = require('./paths')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
+//const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -40,7 +40,7 @@ module.exports = {
      *
      * Copies files from target to destination folder.
      */
-    new CopyWebpackPlugin({
+    /* new CopyWebpackPlugin({
       patterns: [
         {
           from: paths.static,
@@ -50,7 +50,7 @@ module.exports = {
           },
         },
       ],
-    }),
+    }), */
 
     /**
      * HtmlWebpackPlugin
@@ -58,9 +58,9 @@ module.exports = {
      * Generates an HTML file from a template.
      */
     new HtmlWebpackPlugin({
-      title: 'Webpack Boilerplate',
+      title: 'Frontend Mentor | Social Media Dashboard',
       favicon: paths.static + '/favicon.png',
-      template: paths.src + '/template.html', // template file
+      template: paths.static + '/index.html', // template file
       filename: 'index.html', // output file
     }),
   ],

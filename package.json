@@ -1,9 +1,10 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "social-media-dashboard",
   "version": "1.0.0",
-  "description": "Sensible Webpack 4 boilerplate using Babel and PostCSS with HMR development server and optimized production build.",
+  "description": "Practice html, css, js",
   "main": "index.js",
-  "author": "Tania Rascia",
+  "author": "Alexander Celis",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",

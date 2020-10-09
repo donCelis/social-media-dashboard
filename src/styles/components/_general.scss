@@ -1,0 +1,12 @@
+body{
+  background: var(--bg);
+  font-family: $inter;
+}
+
+.fade-hover{
+  transition: background ease 0.2s;
+  cursor: pointer;
+  &:hover{
+    background: var(--card-hover);
+  }
+}
