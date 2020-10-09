@@ -11,7 +11,7 @@ module.exports = merge(common, {
   output: {
     path: paths.build,
     publicPath: '/social-dashboard-webpack/',
-    filename: './js/[name].[contenthash].bundle.js',
+    filename: 'js/[name].[contenthash].bundle.js',
   },
   plugins: [
     /**
@@ -23,7 +23,7 @@ module.exports = merge(common, {
      * They cannot be used together in the same config.
      */
     new MiniCssExtractPlugin({
-      filename: './styles/[name].[contenthash].css',
+      filename: 'styles/[name].[contenthash].css',
       /* chunkFilename: './styles/[id].css', */
     }),
   ],
