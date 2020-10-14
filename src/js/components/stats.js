@@ -1,8 +1,7 @@
 import { dataStats } from "../../db/data";
 import stat from "./stat";
 
-const stats = () => {
-  return `
+const stats = () => `
   <section class="stats py-3">
     <div class="container">
       <h4 class="mb-4">Overview - Today</h4>
@@ -11,7 +10,6 @@ const stats = () => {
       </section>
     </div>
   </section>
-  `;
-};
+`;
 
 export default stats;

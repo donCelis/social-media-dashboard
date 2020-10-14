@@ -1,8 +1,7 @@
 import { dataCounter } from "../../db/data";
 import card from "./card";
 
-const cards = () => {
-  return `
+const cards = () => `
   <main class="followers">
     <div class="container">
       <section class="row text-center">
@@ -10,7 +9,6 @@ const cards = () => {
       </section>
     </div>
   </main>
-  `;
-};
+`;
 
 export default cards;
