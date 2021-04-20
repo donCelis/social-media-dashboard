@@ -5,8 +5,8 @@
 ## Installation
 
 ```
-git clone git@github.com:donCelis/social-dashboard-webpack.git
-cd social-dashboard-webpack
+git clone git@github.com:donCelis/social-media-dashboard.git
+cd social-media-dashboard
 npm i
 ```
 
